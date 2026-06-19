@@ -7,7 +7,7 @@ import {
   TAX_LIMITS,
 } from "./lib/tax";
 
-const COSMOFEED_PRODUCT_URL = "https://cosmofeed.com/vp/your-product-link";
+const GUMROAD_PRODUCT_LINK = "https://bellare.gumroad.com/l/tiffp";
 
 const currencyFormatter = new Intl.NumberFormat("en-IN", {
   style: "currency",
@@ -16,7 +16,7 @@ const currencyFormatter = new Intl.NumberFormat("en-IN", {
 });
 
 const model = reactive({
-  grossReceipts: 2400000,
+  grossReceipts: 4500000,
   digitalReceiptsAtLeast95: true,
   savingsBankInterest: 0,
   fixedDepositInterest: 0,
@@ -103,9 +103,8 @@ function handleAmountInput(key: AmountKey, event: Event): void {
 }
 
 function handleKitDownload(event: MouseEvent): void {
-  if (COSMOFEED_PRODUCT_URL.includes("your-product-link")) {
+  if (GUMROAD_PRODUCT_LINK.includes("your-product-link")) {
     event.preventDefault();
-    window.alert("Replace COSMOFEED_PRODUCT_URL in App.vue with your live Cosmofeed product link.");
   }
 }
 
@@ -354,7 +353,7 @@ onUnmounted(() => {
         <a
           class="button-primary kit-button"
           id="kit"
-          :href="COSMOFEED_PRODUCT_URL"
+          :href="GUMROAD_PRODUCT_LINK"
           @click="handleKitDownload"
         >
           Download the Complete Freelancer Tax Optimization &amp; Harvesting Kit (₹499)
