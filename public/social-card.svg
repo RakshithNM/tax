@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Freelancer Tax Optimization Calculator social preview</title>
+  <desc id="desc">A dark social preview card for an Indian freelance tax calculator with presumptive income and LTCG threshold metrics.</desc>
+  <rect width="1200" height="630" fill="#000000"/>
+  <path d="M0 0h1200v630H0z" fill="#000000"/>
+  <path d="M80 74h1040v482H80z" fill="none" stroke="#262626" stroke-width="2"/>
+  <path d="M80 144h1040" stroke="#262626" stroke-width="2"/>
+  <text x="112" y="118" fill="#999999" font-family="Menlo" font-size="22" letter-spacing="5">FY 2026-27 / INDIA FREELANCER PLANNER</text>
+  <text x="112" y="236" fill="#ffffff" font-family="Arial Narrow" font-size="78" font-weight="700" letter-spacing="5">FREELANCER TAX</text>
+  <text x="112" y="318" fill="#ffffff" font-family="Arial Narrow" font-size="78" font-weight="700" letter-spacing="5">OPTIMIZATION</text>
+  <text x="116" y="372" fill="#cccccc" font-family="Menlo" font-size="23">Presumptive income, slab tax, interest, dividends,</text>
+  <text x="116" y="408" fill="#cccccc" font-family="Menlo" font-size="23">and equity LTCG threshold planning.</text>
+  <g transform="translate(112 434)">
+    <rect width="236" height="76" rx="38" fill="#ff4500"/>
+    <text x="40" y="48" fill="#ffffff" font-family="Menlo" font-size="25" letter-spacing="3">CALCULATE</text>
+  </g>
+  <g transform="translate(765 210)">
+    <rect x="0" y="0" width="286" height="250" fill="#111111" stroke="#3a3a3a" stroke-width="2"/>
+    <path d="M34 42h218" stroke="#ffffff" stroke-width="4"/>
+    <text x="34" y="92" fill="#999999" font-family="Menlo" font-size="18" letter-spacing="3">DEEMED PROFIT</text>
+    <text x="34" y="142" fill="#ffffff" font-family="Arial Narrow" font-size="54" font-weight="700" letter-spacing="3">50%</text>
+    <text x="34" y="194" fill="#999999" font-family="Menlo" font-size="18" letter-spacing="3">LTCG THRESHOLD</text>
+    <text x="34" y="232" fill="#ffffff" font-family="Arial Narrow" font-size="36" font-weight="700" letter-spacing="2">1.25L</text>
+    <path d="M34 248h218" stroke="#8a2be2" stroke-width="4"/>
+  </g>
+  <path d="M80 556h1040" stroke="#262626" stroke-width="2"/>
+  <text x="112" y="596" fill="#999999" font-family="Menlo" font-size="18" letter-spacing="4">TAX OPTIMIZER</text>
+</svg>

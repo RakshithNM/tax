@@ -1,0 +1,20 @@
+{
+  "name": "Freelancer Tax Optimizer",
+  "short_name": "Tax Optimizer",
+  "description": "A focused Indian freelance tax calculator for presumptive income, slab tax, and equity LTCG threshold planning.",
+  "icons": [
+    {
+      "src": "/favicon-32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#000000",
+  "background_color": "#000000",
+  "display": "standalone"
+}
