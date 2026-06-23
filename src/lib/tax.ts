@@ -54,7 +54,7 @@ const NEW_REGIME_SLABS = [
   { upTo: Number.POSITIVE_INFINITY, rate: 0.3 },
 ] as const;
 
-export function clampAmount(value: unknown, max = TAX_LIMITS.maxAmountInput): number {
+export function clampAmount(value: unknown, max: number = TAX_LIMITS.maxAmountInput): number {
   const numericValue = Number(value);
 
   if (!Number.isFinite(numericValue)) {
